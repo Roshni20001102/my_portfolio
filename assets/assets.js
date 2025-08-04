@@ -94,23 +94,21 @@ export const assets = {
 
 export const workData = [
   {
-  title: "Portfolio Website",
-  description: "Web Design & Development",
-  bgImage: "/work-1.png",
-  tech: ["React", "Tailwind", "Next.js", "Figma"],
-  role: "Frontend Developer | UI/UX Designer | QA Tester",
-  github: "https://github.com/yourrepo",
-  live: "https://yourliveurl.com",
-  images: ["/work-1a.png", "/work-1b.png"],
-  fullDescription:[
-    "Designed and developed a personal portfolio website using React, Tailwind CSS, and Next.js.", 
-    "Created wireframes and high-fidelity UI prototypes in Figma, focusing on user experience and accessibility.", "Integrated smooth animations and responsive design.", 
-    "Conducted thorough functional testing across browsers and devices to ensure performance and reliability.", 
-    "Managed the entire workflow independently, from planning to deployment."
-],
-  behance: "https://www.behance.net/yourcase-study",
-
-},
+    title: "Portfolio Website",
+    description: "Web Design & Development",
+    bgImage: "/work-1.png",
+    tech: ["React", "Tailwind", "Next.js", "Figma"],
+    github: "https://github.com/Roshni20001102/my_portfolio",
+    live: "https://yourliveurl.com",
+    images: ["/work-1a.png", "/work-1b.png"],
+    fullDescription: [
+      "Designed and developed a personal portfolio website using React, Tailwind CSS, and Next.js.",
+      "Created wireframes and high-fidelity UI prototypes in Figma, focusing on user experience and accessibility.",
+      "Integrated smooth animations and responsive design.",
+      "Conducted thorough functional testing across browsers and devices to ensure performance and reliability.",
+      "Managed the entire workflow independently, from planning to deployment.",
+    ],
+  },
   {
     title: "Food Delivery App",
     description: "Full Stack",
@@ -129,14 +127,69 @@ export const workData = [
     ],
   },
   {
-    title: "Photography site",
-    description: "Web Design",
+    title: "E-Commerce System",
+    description: "Full Stack Development",
     bgImage: "/work-3.png",
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "Figma"],
+    github: "https://github.com/yourrepo",
+    live: "https://yourliveurl.com",
+    images: ["/work-3a.png", "/work-3b.png"],
+    fullDescription: [
+      "Developed the order management module of a MERN-based e-commerce system",
+      "Enabling efficient order tracking and processing.",
+      "Implemented responsive UI components using React and designed intuitive workflows in Figma to enhance user experience.",
+      "Built and connected RESTful APIs with Node.js and Express.js for backend logic and data handling with MongoDB.",
+      "Conducted functional testing to ensure smooth transactions and system reliability.",
+    ],
   },
   {
-    title: "UI/UX designing",
+    title: "Rotating Carousel Animation",
+    description: "UI/UX Design",
+    bgImage: "/work-7.png",
+    tech: ["Figma"],
+    github: "",
+    live: "",
+    images: ["/carousel-1.png", "/carousel-2.png"],
+    fullDescription: [
+      "Created a smooth, rotating carousel animation in Figma to boost visual engagement and interactive experience.",
+      "Focused on intuitive motion flow and aesthetic transitions",
+      "enhancing the usability and appeal of UI components.",
+      "This design demonstrates creativity in motion design and interactive prototyping.",
+    ],
+    behance:
+      "https://www.behance.net/gallery/231678809/Rotating-Carousel-Animation",
+  },
+  {
+    title: "Food Ordering App",
+    description: "UI/UX - Mobile App Design",
+    bgImage: "/work-8.png",
+    tech: ["Figma, Canva"],
+    github: "",
+    live: "",
+    images: ["/foodapp-ui1.png", "/foodapp-ui2.png"],
+    fullDescription: [
+      "Designed and prototyped a complete mobile food ordering application using Figma and Canva.",
+      "Defined the navigation flow,user profile, customer support, customize order, cart interactions, and order placement interface with a focus on simplicity and usability.",
+      "Ensured an intuitive user experience across all screens by applying UX best practices and visual consistency.",
+      "Demonstrated high-fidelity prototyping and interactive transitions to simulate real app behavior.",
+    ],
+    behance: "https://www.behance.net/gallery/231679053/Food-App",
+  },
+  {
+    title: "LINGsCAR UI/UX Redesign",
     description: "UI/UX Design",
     bgImage: "/work-4.png",
+    tech: ["Figma"],
+    github: "",
+    live: "",
+
+    images: ["/work-4a.png", "/work-4b.png"],
+    fullDescription: [
+      "Redesigned the LINGsCAR website focusing on intuitive navigation and improved usability.",
+      "Created high-fidelity mockups using Figma, enhanced accessibility",
+      "conducted user research for feedback-driven iteration.",
+    ],
+    behance: "https://www.behance.net/gallery/231808341/LINGsCAR-UIUX-Redesign",
   },
 ];
 
